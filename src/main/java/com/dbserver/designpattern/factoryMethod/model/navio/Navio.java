@@ -1,17 +1,17 @@
 package com.dbserver.designpattern.factoryMethod.model.navio;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import com.dbserver.designpattern.factoryMethod.model.transporte.Transporte;
 
+import lombok.extern.slf4j.Slf4j;
+
+@Slf4j
 public class Navio implements Transporte{
 
-    private static final Logger logger = LoggerFactory.getLogger(Navio.class);
     
     @Override
     public void entregar() {
-        logger.info("Entregando com navio.");
+        log.info("Entregando com navio.");
     }
     
 }
