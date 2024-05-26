@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 import com.dbserver.designpattern.factoryMethod.model.logistica.Logistica;
 import com.dbserver.designpattern.factoryMethod.model.logistica.LogisticaAquatica;
 import com.dbserver.designpattern.factoryMethod.model.logistica.LogisticaTerrestre;
-import com.dbserver.designpattern.factoryMethod.model.transporte.Transporte;
+import com.dbserver.designpattern.factoryMethod.model.transporte.ITransporte;
 
 @Component
 public class FactoryMethodComandLineRunner implements CommandLineRunner{
@@ -14,11 +14,11 @@ public class FactoryMethodComandLineRunner implements CommandLineRunner{
     @Override
     public void run(String... args) throws Exception {
        Logistica logisticaTerrestre = new LogisticaTerrestre();
-       Transporte caminhao = logisticaTerrestre.criarTransporte();
+       ITransporte caminhao = logisticaTerrestre.criarTransporte();
        caminhao.entregar();
 
        Logistica logisticaAquatica = new LogisticaAquatica();
-       Transporte navio = logisticaAquatica.criarTransporte();
+       ITransporte navio = logisticaAquatica.criarTransporte();
        navio.entregar();
 
     }

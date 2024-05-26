@@ -1,5 +1,5 @@
 package com.dbserver.designpattern.abstractFactory.model.mesaDeCentro;
 
-public interface MesaDeCentro {
+public interface IMesaDeCentro {
     void colocarObjeto();
 }

@@ -1,12 +1,12 @@
 package com.dbserver.designpattern.factoryMethod.model.navio;
 
 
-import com.dbserver.designpattern.factoryMethod.model.transporte.Transporte;
+import com.dbserver.designpattern.factoryMethod.model.transporte.ITransporte;
 
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class Navio implements Transporte{
+public class Navio implements ITransporte{
 
     
     @Override

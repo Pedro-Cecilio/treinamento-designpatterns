@@ -1,5 +1,5 @@
 package com.dbserver.designpattern.abstractFactory.model.cadeira;
 
-public interface Cadeira {
+public interface ICadeira {
     void sentar();
 }

@@ -1,7 +1,7 @@
 package com.dbserver.designpattern.factoryMethod.model.logistica;
 
-import com.dbserver.designpattern.factoryMethod.model.transporte.Transporte;
+import com.dbserver.designpattern.factoryMethod.model.transporte.ITransporte;
 
 public abstract class Logistica {
-    public abstract Transporte criarTransporte();
+    public abstract ITransporte criarTransporte();
 }

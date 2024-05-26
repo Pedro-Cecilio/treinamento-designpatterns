@@ -1,5 +1,5 @@
 package com.dbserver.designpattern.abstractFactory.model.sofa;
 
-public interface Sofa {
+public interface ISofa {
     void sentar();
 }

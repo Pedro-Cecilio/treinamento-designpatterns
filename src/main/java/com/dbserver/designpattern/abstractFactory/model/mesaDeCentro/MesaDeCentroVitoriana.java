@@ -3,7 +3,7 @@ package com.dbserver.designpattern.abstractFactory.model.mesaDeCentro;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j
-public class MesaDeCentroVitoriana implements MesaDeCentro {
+public class MesaDeCentroVitoriana implements IMesaDeCentro {
 
     @Override
     public void colocarObjeto() {

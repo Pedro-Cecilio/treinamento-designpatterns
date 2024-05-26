@@ -1,5 +1,5 @@
 package com.dbserver.designpattern.factoryMethod.model.transporte;
 
-public interface Transporte {
+public interface ITransporte {
     void entregar();
 }
