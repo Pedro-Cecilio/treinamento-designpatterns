@@ -21,6 +21,4 @@ public class AdapterLineRunner implements CommandLineRunner {
         emailInterno.enviarEmail("lucas@email.com", "assunto", "corpo");
         mailChimp.enviarEmail("lucas@email.com", "assunto", "corpo");
     }
-
-
 }

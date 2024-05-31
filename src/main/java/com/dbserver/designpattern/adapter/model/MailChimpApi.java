@@ -2,6 +2,7 @@ package com.dbserver.designpattern.adapter.model;
 
 import lombok.extern.slf4j.Slf4j;
 
+// Simula a api do MailChimp
 @Slf4j
 public class MailChimpApi {
     public void mail(String to, String title, String content) {
