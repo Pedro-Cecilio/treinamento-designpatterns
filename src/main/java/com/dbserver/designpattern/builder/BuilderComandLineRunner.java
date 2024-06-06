@@ -27,6 +27,7 @@ public class BuilderComandLineRunner implements CommandLineRunner {
 
         // Builder construido usando o Lombok
         Cliente cliente = Cliente.builder()
+                .nome("Lucas")
                 .sobrenome("Silva")
                 .idade(30)
                 .email("joao.silva@example.com")
